@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color:grey;
+}
+
+#heading_part {
+    text-align: center;
+    padding: 12px;
+    font-size:xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.box{
+    border: 2px solid black;
+    height:auto;
+    width:400px;
+    background-color:bisque;
+    border-radius: 12px;
+}
+
+.enter_part{
+    margin: 10px;
+    
+}
+
+.enter_part p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.enter_part input{
+    margin-top: 8px;
+    height: 34px;
+    width: 373px;
+    border-radius: 12px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: medium;
+}
+
+#qrcode_img{
+    display: grid;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.Submit{
+        display: flex;
+        justify-content: space-evenly;
+        height:50px;
+        margin: 12px;
+}
+
+#sub{
+    width: 140px;
+    border-radius: 20px;
+    background-color:chartreuse;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#rel{
+    width: 140px;
+    border-radius: 20px;
+    background-color:chartreuse;
+    font-size: x-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+#sub:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#rel:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
